@@ -1,0 +1,127 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Montserrat:wght@300&family=Open+Sans:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.hostel{
+    background-color: #8adfe4cb;
+}
+.nav-img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar-right{
+    margin-top: 10px;
+}
+.nav-ul{
+    margin-top: 10px;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    height: 511px;
+    color: #0c0c0c;
+    text-align: center;
+    background-image: url(amber_image.jpg);
+    font-family: 'Open Sans', sans-serif;
+    font-weight:900;
+    padding-top: 63px;
+    
+    
+    
+}
+
+.sec_div1{
+    font-size: 85px;
+}.sec_div2{
+    font-size: 61px;
+}
+.sec_div3{
+    font-size: 30px;
+}
+.button {
+    border: none;
+    color: rgb(16, 170, 127);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .div_button{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+  .button:hover {
+    background-color: #165f77;
+    color: white;
+    transition: 0.5s;
+  }
+  .amber{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+  }
+  .amber_plate{
+    background-color: white;
+    width: 60rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 15%;
+    box-shadow: 0 0 10px rgba(72, 62, 62, 0.4);
+    border-radius: 10px;
+  }
+  .about_us{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+
+  }
+
+
+
+  .menu-heading{
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: black;
+    }
+    .contact-us-label{
+        color: gray;
+        font-family: 'Open Sans',Arial, sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+    }
+  .contact-us{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15%; 
+    height: 35rem;
+}
+.contact-us-plate{
+    background-color: rgb(255, 255, 255);
+    width: 80rem;
+    height: 78rem;
+    p
+    box-shadow: 0 0 10px rgba(72, 62, 62, 0.4);
+    border-radius: 10px;
+}
+
+  

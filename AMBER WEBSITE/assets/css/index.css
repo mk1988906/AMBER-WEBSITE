@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
+body{
+    margin: 0;
+    transition: background-color .5s;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+.contact-us{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15%; 
+}
+.contact-us-plate{
+    background-color: white;
+    width: 80rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 15%;
+    box-shadow: 0 0 10px rgba(72, 62, 62, 0.4);
+    border-radius: 10px;
+}
+.contact-us-msg{
+    height: 150px !important;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #121212;
+    padding-top: 9%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.col-sm-4 h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 1rem;
+}
+.about-us{
+    font-family: 'Open Sans',Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: gray;
+}
+footer p{
+    font-family: 'Open Sans',Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: gray;
+    padding-bottom: 1.5rem;
+}
+.footer-socials{
+    padding-bottom: 1.5rem;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1rem;
+}
+.read-more{
+    margin-top: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Open Sans',Arial, sans-serif;
+    color: #ff7a5c;
+    background: none;
+    border: solid 2px #ff7a5c;
+    border-radius: 4px;
+    letter-spacing: .2em;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.read-more:hover{
+    color: black;
+    background-color: #ff7a5c;
+}
+footer input{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+.footer-socials button{
+    background: none;
+    border: none;
+    transition: 0.4;
+}
+.footer-socials button:hover{
+    background: none;
+    border: none;
+    color: red;
+}
+.newsletter-btn{
+    margin: 0;
+    border: none;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+}
+
+
+
+
+.copyright{
+    text-align: center;
+    color: gray;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 12%;
+    padding-bottom: 15%;
+}
+
+
+
+
+
+
+/* sidenavigation from w3schools */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
